@@ -7,6 +7,7 @@ Server.
 In first terminal window start rmiregistry service to listen on an appropriate port: ‘rmiregistry 50011’ as an example. 
 This command produces no output and running at the background.
 ![Screenshot 1](/screenshots/1.png?raw=true "Screenshot 1")
+
 Open second terminal from ‘Assessm’ folder and start server:					 
 ‘java cs3524.solutions.mud.MUDServerMainline 50011 50012’
         where 50011 – rmiregistry port and 50012 – the server port.
